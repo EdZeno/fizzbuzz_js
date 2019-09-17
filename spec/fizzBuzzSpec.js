@@ -32,4 +32,10 @@ describe('divisible by 5', function() {
   });
 });
 
+describe('divisible by 3 and 5', function() {
+  it('should return fizzbuzz', function() {
+    expect(fizzBuzz.play(15)).toEqual('FizzBuzz');
+  });
+});
+
 });

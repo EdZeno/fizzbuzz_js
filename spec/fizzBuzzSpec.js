@@ -20,4 +20,16 @@ describe('number not devisible by 3', function() {
   });
 });
 
+describe('divisible by 5', function() {
+  it('should return buzz', function() {
+    expect(fizzBuzz.play(5)).toEqual('Buzz');
+  });
+});
+
+describe('divisible by 5', function() {
+  it('should return buzz', function() {
+    expect(fizzBuzz.play(10)).toEqual('Buzz');
+  });
+});
+
 });
